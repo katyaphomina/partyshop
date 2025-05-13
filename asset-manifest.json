@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/partyshop/static/css/main.328e8a1e.css",
+    "main.js": "/partyshop/static/js/main.67926bda.js",
+    "static/js/453.a4ce6b89.chunk.js": "/partyshop/static/js/453.a4ce6b89.chunk.js",
+    "static/media/Montserrat-Light.ttf": "/partyshop/static/media/Montserrat-Light.afe0a608093579a47b06.ttf",
+    "static/media/kids.jpeg": "/partyshop/static/media/kids.5442aca00ae5451f3987.jpeg",
+    "static/media/theatre.jpeg": "/partyshop/static/media/theatre.af80948254e7254349dd.jpeg",
+    "static/media/everything.png": "/partyshop/static/media/everything.b8799cda4016a20dcf8c.png",
+    "static/media/concert.jpeg": "/partyshop/static/media/concert.147191a4cfe8355d199e.jpeg",
+    "static/media/exhibitions.jpeg": "/partyshop/static/media/exhibitions.28a4f25bfedd89de3c85.jpeg",
+    "static/media/filter1.png": "/partyshop/static/media/filter1.313af88b13ba38274054.png",
+    "static/media/cultural.jpeg": "/partyshop/static/media/cultural.bccb6506aee3c77845fb.jpeg",
+    "static/media/cinema.png": "/partyshop/static/media/cinema.86b80f3f70bb477067bd.png",
+    "static/media/sport.jpeg": "/partyshop/static/media/sport.938c091089d361b6a679.jpeg",
+    "static/media/corporate.jpeg": "/partyshop/static/media/corporate.4a8b978266ad5069bcb3.jpeg",
+    "static/media/education.jpeg": "/partyshop/static/media/education.5c4875b85b17c5f4db3c.jpeg",
+    "static/media/filter2.png": "/partyshop/static/media/filter2.5eae59f561bff978a70c.png",
+    "static/media/personal.jpeg": "/partyshop/static/media/personal.550609d43bc95c764e95.jpeg",
+    "static/media/filter3.png": "/partyshop/static/media/filter3.888314f44d6294d706d4.png",
+    "static/media/Moklan.otf": "/partyshop/static/media/Moklan.451af22d401f4824f652.otf",
+    "static/media/map.svg": "/partyshop/static/media/map.37eddce40882a70dcd5c78e9aa02d118.svg",
+    "static/media/background.svg": "/partyshop/static/media/background.9e1481d8e8124868c796.svg",
+    "static/media/Search.svg": "/partyshop/static/media/Search.46cb5fe32d566dc9ae81f4a1a2dbc418.svg",
+    "static/media/slick.svg": "/partyshop/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/partyshop/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/partyshop/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/partyshop/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/partyshop/index.html",
+    "static/media/Arrow.svg": "/partyshop/static/media/Arrow.5c6049372432c869169eefb38002a60b.svg",
+    "static/media/line.svg": "/partyshop/static/media/line.a3517e49fb2008b2f05ed0711b1dad50.svg",
+    "static/media/arrow-up.svg": "/partyshop/static/media/arrow-up.76866db06f544799c8af9db42012ddf0.svg",
+    "static/media/arrow-down.svg": "/partyshop/static/media/arrow-down.f7996d3ccad69afa76f52395d17e58f3.svg",
+    "main.328e8a1e.css.map": "/partyshop/static/css/main.328e8a1e.css.map",
+    "main.67926bda.js.map": "/partyshop/static/js/main.67926bda.js.map",
+    "453.a4ce6b89.chunk.js.map": "/partyshop/static/js/453.a4ce6b89.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.328e8a1e.css",
+    "static/js/main.67926bda.js"
+  ]
+}
