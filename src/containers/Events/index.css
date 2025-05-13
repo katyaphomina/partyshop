@@ -1,0 +1,160 @@
+.city__container {
+    text-align: center;
+    align-items: center;
+    background-color: #FFFBF5;
+    height: 100vh;
+}
+.city__img{
+    width: 247px;
+    height: 146px;
+    border-radius: 12px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: sans-serif;
+    background-color: #fffaf4;
+}
+
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.tab-button {
+    padding: 0.7rem 1.5rem;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.tab-button:hover {
+    background-color: #FFEFCF;
+}
+
+.tab-button.active {
+    background-color: #FFEFCF;
+    font-weight: bold;
+}
+
+.main-section h1 {
+    font-size: 28px;
+    margin-bottom: 0.5rem;
+}
+
+.main-section p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 2rem;
+}
+
+.card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.card span {
+    font-size: 14px;
+    color: #999;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .tabs {
+        justify-content: center;
+    }
+
+    .tab-button {
+        font-size: 14px;
+        padding: 0.5rem 1rem;
+    }
+
+    .main-section h1 {
+        font-size: 22px;
+    }
+
+    .main-section p {
+        font-size: 16px;
+    }
+}
+
+.image-wrapper {
+    position: relative;
+}
+
+.city__img {
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+}
+
+.likes {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 4px 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: red;
+}
+
+.card {
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+
+.like-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.like-button:hover {
+    transform: scale(1.2);
+}
+
+.like-button.liked {
+    color: #ff4c4c;
+}

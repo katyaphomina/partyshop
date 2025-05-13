@@ -1,0 +1,83 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 45%;
+}
+.navbar_city{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar_city img{
+    margin-right: 8px;
+    width: 27px;
+    height: 27px;
+}
+.navbar_city li{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+header{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    align-items: center;
+    margin: 0 10vw;
+    height: 36px;
+    padding: 12px 0 16px 0;
+}
+.header-container{
+    width: 100%;
+    background-color: rgba(255, 251, 245, 0.3);
+    position: fixed;
+    z-index: 100;
+    top: 0;
+}
+.search-input {
+    display: flex;
+    align-items: center;
+    width: 220px;
+    height: 33px;
+
+    border: 1px solid #000000;
+    border-radius: 20px;
+    background-color: rgba(255, 251, 245, 0.1);
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #000000;
+}
+
+.search-input input {
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 20px;
+    margin-left: 10px;
+    color: #000000;
+    flex: 1;
+}
+
+.search-input svg {
+    width: 24px;
+    height: 24px;
+    fill: #000000;
+}

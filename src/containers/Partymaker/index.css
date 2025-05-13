@@ -1,0 +1,13 @@
+.instructions {
+    align-items: center;
+    width: 100%;
+    display: flex;
+}
+
+.instructions .slider {
+    width: 100%;
+    max-width: 400px;
+}
+.carousel {
+    width: 1000px;
+}

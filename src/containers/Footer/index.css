@@ -1,0 +1,52 @@
+.footer {
+    background: linear-gradient(rgba(255, 251, 245, 0.1), rgba(255, 251, 245, 0.1)), url("./../../images/background.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px; /* Чтобы фон заполнил весь экран */
+    /*display: flex;*/
+    /*text-align: center;*/
+    /*justify-content: space-evenly;*/
+}
+
+.footer-lists{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.footer-title {
+    margin: 15px;
+    justify-content: flex-start;
+    display: flex;
+    color: white;
+    font-weight: bold;
+}
+
+.footer-li {
+    margin: 15px;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.write-to-us-button {
+    background-color: #fff2d9;
+    color: #000;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease;
+    width: 200px;
+    height: 45px;
+}
+
+.write-to-us-button:hover {
+    background-color: #ffe9b3;
+}
+
+.footer-copyright-notice{
+
+}
