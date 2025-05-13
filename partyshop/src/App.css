@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'Moklan';
+  src: url('assets/fonts/Moklan.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('assets/fonts/Montserrat-Light.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html{
+  font-family: 'Montserrat', serif;
+  font-weight: 500;
+}
+body {
+  text-align: center;
+  align-items: center;
+  background: linear-gradient(rgba(255, 251, 245, 0.1), rgba(255, 251, 245, 0.1)), url("images/background.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Чтобы фон заполнил весь экран */
+}
+.intro__container{
+  margin: 25px 10vw;
+}
+.main__logo{
+  font-family: 'Moklan', sans-serif;
+  font-size: 100px;
+  font-weight: 400;
+  color: #FFEFCF;
+  margin: 75px 0 25px 0;
+  text-shadow: 4px 4px 4px #00000040;
+}
+.main__description{
+  margin: 20px 0 0 0;
+  font-size: 28px;
+  font-weight: 700;
+  color: #FFEFCF;
+}
+.boxes{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 23px;
+  font-weight: 500;
+  margin: 80px 0 0 0
+}
+.box{
+  width: 35vw;
+  height: 170px;
+  border-radius: 40px;
+  border: 3px solid white;
+}
+.box__logo{
+  height: 50%;
+  background-color: rgba(255, 251, 245, 0.3);
+  border-radius: 30px 30px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-shadow: 4px 4px 4px #00000040;
+}
+.box__logo__text{
+  font-family: 'Moklan', sans-serif;
+  font-weight: 400;
+  font-size:36px;
+  list-style-type: none;
+  display: flex;
+  z-index: 2;
+}
+.box__logo__text2{
+  color:#C1FE8B
+}
+.box__logo__text3{
+  color:#8BF7FF
+}
+.box__desc__btn1{
+  height: 33px;
+  width: 183px;
+  background-color:#C1FE8B;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 5px 3px #00000040;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+
+}
+.box__desc__btn2{
+  height: 33px;
+  width: 183px;
+  background-color:#8BF7FF;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 5px 3px #00000040;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+
+}
+.box__desc{
+  height: 50%;
+  border-radius: 0 0 30px 30px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.main__footer{
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 40px 0 0 0;
+}
+.arrow{
+  margin: 10px 0 0 0
+}
+.box__menu{
+  width: 100%;
+  display: flex;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
