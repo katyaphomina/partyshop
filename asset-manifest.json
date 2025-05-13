@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/partyshop/static/css/main.328e8a1e.css",
-    "main.js": "/partyshop/static/js/main.67926bda.js",
+    "main.css": "/partyshop/static/css/main.e04807b2.css",
+    "main.js": "/partyshop/static/js/main.59ebfdce.js",
     "static/js/453.a4ce6b89.chunk.js": "/partyshop/static/js/453.a4ce6b89.chunk.js",
     "static/media/Montserrat-Light.ttf": "/partyshop/static/media/Montserrat-Light.afe0a608093579a47b06.ttf",
     "static/media/kids.jpeg": "/partyshop/static/media/kids.5442aca00ae5451f3987.jpeg",
@@ -19,24 +19,24 @@
     "static/media/personal.jpeg": "/partyshop/static/media/personal.550609d43bc95c764e95.jpeg",
     "static/media/filter3.png": "/partyshop/static/media/filter3.888314f44d6294d706d4.png",
     "static/media/Moklan.otf": "/partyshop/static/media/Moklan.451af22d401f4824f652.otf",
-    "static/media/map.svg": "/partyshop/static/media/map.37eddce40882a70dcd5c78e9aa02d118.svg",
-    "static/media/background.svg": "/partyshop/static/media/background.9e1481d8e8124868c796.svg",
-    "static/media/Search.svg": "/partyshop/static/media/Search.46cb5fe32d566dc9ae81f4a1a2dbc418.svg",
+    "static/media/map.svg": "/partyshop/static/media/map.afe5c889e1cc987b4d9bd96c0521da42.svg",
+    "static/media/background.svg": "/partyshop/static/media/background.644f035aca911fb8e689.svg",
+    "static/media/Search.svg": "/partyshop/static/media/Search.99e30d6c773b361430301b1657554ef2.svg",
     "static/media/slick.svg": "/partyshop/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/partyshop/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/partyshop/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/partyshop/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/partyshop/index.html",
-    "static/media/Arrow.svg": "/partyshop/static/media/Arrow.5c6049372432c869169eefb38002a60b.svg",
-    "static/media/line.svg": "/partyshop/static/media/line.a3517e49fb2008b2f05ed0711b1dad50.svg",
-    "static/media/arrow-up.svg": "/partyshop/static/media/arrow-up.76866db06f544799c8af9db42012ddf0.svg",
-    "static/media/arrow-down.svg": "/partyshop/static/media/arrow-down.f7996d3ccad69afa76f52395d17e58f3.svg",
-    "main.328e8a1e.css.map": "/partyshop/static/css/main.328e8a1e.css.map",
-    "main.67926bda.js.map": "/partyshop/static/js/main.67926bda.js.map",
+    "static/media/Arrow.svg": "/partyshop/static/media/Arrow.4ec9a4c8bed00ad94e11172d18b1a1c2.svg",
+    "static/media/line.svg": "/partyshop/static/media/line.66c6c21ce5880de439f14c4d468601b7.svg",
+    "static/media/arrow-up.svg": "/partyshop/static/media/arrow-up.b403d9e0631a7f99689c7df74332f825.svg",
+    "static/media/arrow-down.svg": "/partyshop/static/media/arrow-down.941d002c74e3a87b6e0e0775a5952e20.svg",
+    "main.e04807b2.css.map": "/partyshop/static/css/main.e04807b2.css.map",
+    "main.59ebfdce.js.map": "/partyshop/static/js/main.59ebfdce.js.map",
     "453.a4ce6b89.chunk.js.map": "/partyshop/static/js/453.a4ce6b89.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.328e8a1e.css",
-    "static/js/main.67926bda.js"
+    "static/css/main.e04807b2.css",
+    "static/js/main.59ebfdce.js"
   ]
 }
