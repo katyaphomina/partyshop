@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/partyshop/static/css/main.e04807b2.css",
-    "main.js": "/partyshop/static/js/main.59ebfdce.js",
+    "main.css": "/partyshop/static/css/main.20a486d0.css",
+    "main.js": "/partyshop/static/js/main.5d34d3b1.js",
     "static/js/453.a4ce6b89.chunk.js": "/partyshop/static/js/453.a4ce6b89.chunk.js",
     "static/media/Montserrat-Light.ttf": "/partyshop/static/media/Montserrat-Light.afe0a608093579a47b06.ttf",
     "static/media/kids.jpeg": "/partyshop/static/media/kids.5442aca00ae5451f3987.jpeg",
@@ -10,6 +10,7 @@
     "static/media/concert.jpeg": "/partyshop/static/media/concert.147191a4cfe8355d199e.jpeg",
     "static/media/exhibitions.jpeg": "/partyshop/static/media/exhibitions.28a4f25bfedd89de3c85.jpeg",
     "static/media/filter1.png": "/partyshop/static/media/filter1.313af88b13ba38274054.png",
+    "static/media/standup.jpeg": "/partyshop/static/media/standup.8c0a5db1b8f84d149ace.jpeg",
     "static/media/cultural.jpeg": "/partyshop/static/media/cultural.bccb6506aee3c77845fb.jpeg",
     "static/media/cinema.png": "/partyshop/static/media/cinema.86b80f3f70bb477067bd.png",
     "static/media/sport.jpeg": "/partyshop/static/media/sport.938c091089d361b6a679.jpeg",
@@ -31,12 +32,12 @@
     "static/media/line.svg": "/partyshop/static/media/line.66c6c21ce5880de439f14c4d468601b7.svg",
     "static/media/arrow-up.svg": "/partyshop/static/media/arrow-up.b403d9e0631a7f99689c7df74332f825.svg",
     "static/media/arrow-down.svg": "/partyshop/static/media/arrow-down.941d002c74e3a87b6e0e0775a5952e20.svg",
-    "main.e04807b2.css.map": "/partyshop/static/css/main.e04807b2.css.map",
-    "main.59ebfdce.js.map": "/partyshop/static/js/main.59ebfdce.js.map",
+    "main.20a486d0.css.map": "/partyshop/static/css/main.20a486d0.css.map",
+    "main.5d34d3b1.js.map": "/partyshop/static/js/main.5d34d3b1.js.map",
     "453.a4ce6b89.chunk.js.map": "/partyshop/static/js/453.a4ce6b89.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e04807b2.css",
-    "static/js/main.59ebfdce.js"
+    "static/css/main.20a486d0.css",
+    "static/js/main.5d34d3b1.js"
   ]
 }
