@@ -19,8 +19,8 @@ export const Partyplan = () => {
                     <li className="top__down">что Вам нужно для легкой организации любого события</li>
                 </ul>
                 <ul className="box__logo__text">
-                    <li className="box__logo__text1">PARTY</li>
-                    <li className="box__logo__text2">PLAN</li>
+                    <li className="box__logo__text__party">PARTY</li>
+                    <li className="box__logo__text__plan">PLAN</li>
                 </ul>
                 <ul>
                     <li className="category-header">ЭТО УДОБНЫЙ ИНСТРУМЕНТ ПЛАНИРОВАНИЯ</li>
@@ -31,10 +31,11 @@ export const Partyplan = () => {
                         <div className="carousel"><Carousel images={carousel1}/></div>
                         <div className="description">Заполните первичные фильтры:
                             <ul>
-                                <li>тип события</li>
-                                <li>события</li>
-                                <li>бюджет</li>
-                                <li>количетсво-гостей</li>
+                                {/*<li>Заполните первичные фильтры:</li>*/}
+                                <li>    тип события</li>
+                                <li>    события</li>
+                                <li>    бюджет</li>
+                                <li>    количетсво-гостей</li>
                             </ul>
                         </div>
                     </div>

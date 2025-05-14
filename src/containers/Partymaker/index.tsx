@@ -16,8 +16,8 @@ export const Partymaker = () => {
                     <li className="top__down">что Вам нужно для продвижения услуг</li>
                 </ul>
                 <ul className="box__logo__text">
-                    <li className="box__logo__text1">PARTY</li>
-                    <li className="box__logo__text2">MAKER</li>
+                    <li className="box__logo__text__party1">PARTY</li>
+                    <li className="box__logo__text__maker">MAKER</li>
                 </ul>
                 <ul>
                     <li className="category-header">ЭТО УДОБНЫЙ ИНСТРУМЕНТ ПРОДВИЖЕНИЯ</li>

@@ -176,15 +176,77 @@
 .mini_tabs_items li {
     padding: 0.3rem 1.5rem;
     font-size: 16px;
-    /*background-color: #fffaf4;*/
+    background-color: #fff;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    /*box-shadow: 0 4px 6px rgba(0,0,0,0.05);*/
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
     color: #333;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    overflow: visible;
 }
 
 .mini_tabs_items li:hover {
     background-color: #FFEFCF;
 }
+.mini_tabs_items img {
+    margin-left: 5px;
+}
+
+.dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 10;
+
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    padding: 0.3rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    min-width: 160px;
+    gap: 0.25rem;
+}
+
+.dropdown-menu li {
+    padding: 0.3rem 1.5rem;
+    font-size: 16px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+    color: #333;
+    white-space: nowrap;
+}
+
+.dropdown-menu li:hover {
+    background-color: #FFEFCF;
+}
+.option-button{
+    background-color: white;
+    border: none;
+    width: 100%;
+}
+
+.dropdown-item-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+    text-align: left;
+    width: 100%;
+    transition: background-color 0.2s ease;
+}
+
+.dropdown-item-button:hover {
+    background-color: #ffe9c1;
+}
+

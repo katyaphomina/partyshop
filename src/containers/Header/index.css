@@ -47,7 +47,7 @@ header{
 }
 .header-container{
     width: 100%;
-    background-color: rgba(255, 251, 245, 0.3);
+    background-color: #FFEFCF;
     position: fixed;
     z-index: 100;
     top: 0;
