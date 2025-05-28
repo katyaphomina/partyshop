@@ -18,7 +18,7 @@ html{
 body {
   text-align: center;
   align-items: center;
-  background: linear-gradient(rgba(255, 251, 245, 0.1), rgba(255, 251, 245, 0.1)), url("images/background.svg");
+  background: linear-gradient(rgba(255, 251, 245, 0.2), rgba(255, 251, 245, 0.2)), url("images/background.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -37,7 +37,7 @@ body {
   text-shadow: 4px 4px 4px #00000040;
 }
 .main__description{
-  margin: 20px 0 0 0;
+  margin: 20px 0 26px 0;
   font-size: 28px;
   font-weight: 700;
   color: #FFEFCF;

@@ -7,8 +7,7 @@ import cultural from "../../images/cultural.jpeg";
 import education from "../../images/education.jpeg";
 import sport from "../../images/sport.jpeg"
 import search from "../../images/Search.svg";
-import arrowUp from "../../images/arrow-up.svg";
-import arrowDown from "../../images/arrow-down.svg";
+import {MiniTabs} from "../../components/MiniTabs";
 
 interface Tab {
     name: string;
@@ -39,7 +38,7 @@ const tabs: Tab[] = [
 ];
 
 const generateCards = (tabName: string, image: string): Card[] =>
-    Array.from({ length: 6 }).map((_, index) => ({
+    Array.from({ length: 8 }).map((_, index) => ({
         id: `${tabName}-${index}`,
         title: `${tabName} мероприятие ${index + 1}`,
         subtitle: "Описание события",
@@ -60,16 +59,7 @@ export const Events = () => {
             [id]: !prev[id],
         }));
     };
-
-    const handleToggleMenu = (option: string) => {
-        setOpenStates((prevState) => ({
-            ...prevState,
-            [option]: !prevState[option],
-        }));
-    };
     const cards = generateCards(selectedTab.name, selectedTab.image);
-
-
     return (
         <div className="container">
             <div className="top">
@@ -97,51 +87,14 @@ export const Events = () => {
                     </button>
                 ))}
             </div>
-            <div className="mini_tabs">
-                <ul className="mini_tabs_items">
-                    {selectedTab.options.map((option) => (
-                        <li key={option}>
-                            <button
-                                className="option-button"
-                                onClick={() => handleToggleMenu(option)}
-                            >
-                                {selectedOptions[option] || option}
-                                {selectedTab.dropdown?.[option] && (
-                                    <img
-                                        src={openStates[option] ? arrowUp : arrowDown}
-                                        alt="toggle"
-                                        className="category-icon"
-                                    />
-                                )}
-                            </button>
-                            {selectedTab.dropdown?.[option] && openStates[option] && (
-                                <ul className="dropdown-menu">
-                                    {selectedTab.dropdown[option].map((item) => (
-                                        <li key={item}>
-                                            <button
-                                                className="dropdown-item-button"
-                                                onClick={() => {
-                                                    setSelectedOptions((prev) => ({
-                                                        ...prev,
-                                                        [option]: item
-                                                    }));
-                                                    setOpenStates((prev) => ({
-                                                        ...prev,
-                                                        [option]: false
-                                                    }));
-                                                }}
-                                            >
-                                                {item}
-                                            </button>
-                                        </li>
-                                    ))}
-                                </ul>
-                            )}
-                        </li>
-                    ))}
-                </ul>
-            </div>
-
+            <MiniTabs
+                tabs={tabs}
+                selectedTab={selectedTab}
+                openStates={openStates}
+                setOpenStates={setOpenStates}
+                selectedOptions={selectedOptions}
+                setSelectedOptions={setSelectedOptions}
+            />
             <div className="main-section">
                 <h1>{selectedTab.name} в Казани</h1>
                 <p>Выберите мероприятие по душе</p>

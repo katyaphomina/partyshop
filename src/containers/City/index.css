@@ -21,7 +21,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    margin-bottom: 2rem;
 }
 
 .tab-button {
@@ -32,7 +31,7 @@
     border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
 }
 
 .tab-button:hover {
@@ -62,10 +61,8 @@
 }
 
 .card {
-    /*background-color: white;*/
     border-radius: 12px;
     padding: 1rem;
-    /*box-shadow: 0 4px 12px rgba(0,0,0,0.05);*/
     transition: transform 0.2s ease;
     text-align: center;
 }
@@ -92,7 +89,7 @@
     color: #999;
 }
 
-/* Адаптивность */
+
 @media (max-width: 768px) {
     .tabs {
         justify-content: center;
@@ -138,7 +135,6 @@
     position: relative;
     padding: 10px;
     border-radius: 10px;
-    background-color: red;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -146,7 +142,7 @@
 
 .like-button {
     position: absolute;
-    bottom: 10px;
+    top: 190px;
     right: 10px;
     background: none;
     border: none;
@@ -171,17 +167,17 @@
     justify-content: flex-start;
     padding-left: 0;
     list-style: none;
+
 }
 
 .mini_tabs_items li {
     padding: 0.3rem 1.5rem;
     font-size: 16px;
     background-color: #fff;
-    border: none;
     border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border: 1px solid black;
     color: #333;
     position: relative;
     display: inline-block;
@@ -208,20 +204,20 @@
     border-radius: 10px;
     border: none;
     padding: 0.3rem 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
     min-width: 160px;
     gap: 0.25rem;
 }
 
 .dropdown-menu li {
-    padding: 0.3rem 1.5rem;
-    font-size: 16px;
+    /*padding: 0.3rem MiniTabs.5rem;*/
+    font-size: 14px;
     background-color: #fff;
     border: none;
-    border-radius: 10px;
+    /*border-radius: 10px;*/
     cursor: pointer;
     transition: background-color 0.3s ease;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+    /*box-shadow: 0 4px 6px rgba(0,0,0,0.3);*/
     color: #333;
     white-space: nowrap;
 }
@@ -230,9 +226,15 @@
     background-color: #FFEFCF;
 }
 .option-button{
+    font-size: 16px;
     background-color: white;
     border: none;
     width: 100%;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+}
+.option-button:hover {
+    background-color: #FFEFCF;
 }
 
 .dropdown-item-button {
@@ -246,7 +248,5 @@
     transition: background-color 0.2s ease;
 }
 
-.dropdown-item-button:hover {
-    background-color: #ffe9c1;
-}
+
 

@@ -1,0 +1,71 @@
+.places-container{
+    width: calc(100% - 20vw);
+    min-height: 100px;
+    border-radius: 40px;
+    margin: 10px 0 0 0;
+    padding: 20px 10vw;
+    background-color: #FFFBF5;
+}
+.places__menu{
+    padding: 1.5rem 0 0.5rem 0;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid black !important;
+    width: 416px;
+}
+.places__menu img{
+    margin-left: 350px;
+}
+.top__down{
+    margin-bottom: 20px !important;
+}
+.date-input {
+    border: none;
+    color: black;
+}
+
+.date-picker-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.hidden-date-input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.submit-filter{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+Link{
+    text-decoration: none;
+}
+a.text:active, /* активная/посещенная ссылка */
+a.text:hover,  /* при наведении */
+a.text,
+a{
+    text-decoration: none;
+    color: #FFEFCF;
+}
+
+.main-section-header{
+    display: flex;
+    justify-content: flex-start;
+    padding: 1.5rem 0 0.5rem 0;
+    font-size: 30px;
+    font-weight: 600;
+    width: 746px;
+}

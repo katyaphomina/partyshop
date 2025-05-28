@@ -1,11 +1,9 @@
-import {Header} from "./Header";
+
 import {EventMenu} from "./EventMenu";
 import {City} from "./City";
 import {Events} from './Events';
-import {MyCalendar} from "./Calendar";
 import {Partyplan} from "./Partyplan";
-import {Carousel} from "./Carousel";
 import {Partymaker} from "./Partymaker";
-import {Footer} from "./Footer";
+import {MiniTabs} from "../components/MiniTabs";
 
-export {Header, EventMenu,City, MyCalendar, Events,Partyplan, Carousel, Partymaker,Footer};
+export {EventMenu,City,Events,Partyplan, Partymaker,MiniTabs};

@@ -9,10 +9,10 @@
     max-width: 400px;
 }
 .carousel {
-    width: 1000px;
+    width: 800px;
 }
-.container-partyplan{
-    background-color: #fff;
+.container_partyplan{
+    background-color: white;
 }
 .box__logo__text__party, .box__logo__text__plan{
     color: #C1FE8B;

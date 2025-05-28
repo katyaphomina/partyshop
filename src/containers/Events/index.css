@@ -21,7 +21,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    margin-bottom: 2rem;
 }
 
 .tab-button {
@@ -32,7 +31,7 @@
     border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
 }
 
 .tab-button:hover {
@@ -62,10 +61,8 @@
 }
 
 .card {
-    background-color: white;
     border-radius: 12px;
     padding: 1rem;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
     transition: transform 0.2s ease;
     text-align: center;
 }
@@ -134,15 +131,13 @@
 
 .card {
     position: relative;
-    padding: 10px;
+    padding: 10px 0;
     border-radius: 10px;
-    box-shadow: 0 0 8px rgba(0,0,0,0.1);
-    background-color: #fff;
 }
 
 .like-button {
     position: absolute;
-    bottom: 10px;
+    top: 190px;;
     right: 10px;
     background: none;
     border: none;

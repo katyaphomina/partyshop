@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./index.css";
-import "./search.css"
+import "./search.css";
 import arrowDown from '../../images/arrow-down.svg';
 import arrowUp from '../../images/arrow-up.svg';
 import search from '../../images/Search.svg';
@@ -8,16 +9,14 @@ import search from '../../images/Search.svg';
 type Category = {
     title: string;
     items: string[];
+    link?: Record<string, string>;
 };
 
 const categories: Category[] = [
     {
-        title: "Еда",
-        items: ["Рестораны / кафе", "Кейтеринг", "Кондитерские"],
-    },
-    {
-        title: "Места",
+        title: "Площадки",
         items: [
+            "Рестораны / кафе",
             "Открытые площадки",
             "Лофты",
             "Загородные дома",
@@ -30,6 +29,9 @@ const categories: Category[] = [
             "Спортивные площадки",
             "Спецплощадки",
         ],
+        link: {
+            "Рестораны / кафе": "/partyshop/places"
+        }
     },
     {
         title: "Услуги",
@@ -49,7 +51,9 @@ const categories: Category[] = [
             "Клининг",
             "Спортивные специалисты",
             "Преподаватели мастер-классов",
-        ],
+            "Кейтеринг",
+            "Кондитерские"
+        ]
     },
     {
         title: "Атрибуты",
@@ -60,7 +64,7 @@ const categories: Category[] = [
             "Декор",
             "Подарки для гостей",
             "Тематика и текстиль",
-        ],
+        ]
     },
     {
         title: "Транспорт",
@@ -69,17 +73,13 @@ const categories: Category[] = [
             "Аренда транспорта для гостей",
             "Такси и трансферы",
             "Профессиональные водители",
-        ],
+        ]
     },
     {
         title: "Прочее",
-        items: [
-            "Прочее"
-        ]
+        items: ["Прочее"]
     }
 ];
-
-
 
 export const EventMenu = () => {
     const [openStates, setOpenStates] = useState<boolean[]>(
@@ -104,31 +104,39 @@ export const EventMenu = () => {
                     </ul>
                     <div className="top__desc__search">
                         <form className="search__form">
-                            <input className="search__input" type="text" placeholder="поиск"/>
-                            <img src={search} alt={"search"}/>
-
+                            <input className="search__input" type="text" placeholder="поиск" />
+                            <img src={search} alt="search" />
                         </form>
                         <button className="write-to-us-button">Смотреть Всё</button>
                     </div>
                 </div>
+
                 {categories.map((category, index) => (
                     <div key={category.title} className="category">
                         <div className="category-header" onClick={() => toggleIndex(index)}>
                             {category.title}
                             <span className="category-icon">
-
-                <img
-                    src={openStates[index] ? arrowUp : arrowDown}
-                    alt="toggle"
-                    className="category-icon"
-                />
-                </span>
+                                <img
+                                    src={openStates[index] ? arrowUp : arrowDown}
+                                    alt="toggle"
+                                    className="category-icon"
+                                />
+                            </span>
                         </div>
                         {openStates[index] && (
                             <ul className="category-items">
-                                {category.items.map(item => (
-                                    <li key={item}>{item}</li>
-                                ))}
+                                {category.items.map(item => {
+                                    const path = category.link?.[item];
+                                    return (
+                                        <li key={item}>
+                                            {path ? (
+                                                <Link to={path}>{item}</Link>
+                                            ) : (
+                                                item
+                                            )}
+                                        </li>
+                                    );
+                                })}
                             </ul>
                         )}
                     </div>

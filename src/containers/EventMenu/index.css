@@ -49,7 +49,11 @@
     color: #555;
 }
 
-.category-items li:hover {
+.category-items li:hover,  .category-items a:hover {
     color: #a14ff8;
+}
+.category-items a{
+    text-decoration: none;
+    color: #555;
 }
 
