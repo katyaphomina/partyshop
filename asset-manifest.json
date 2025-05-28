@@ -1,12 +1,24 @@
 {
   "files": {
-    "main.css": "/partyshop/static/css/main.20a486d0.css",
-    "main.js": "/partyshop/static/js/main.5d34d3b1.js",
-    "static/js/453.a4ce6b89.chunk.js": "/partyshop/static/js/453.a4ce6b89.chunk.js",
+    "main.css": "/partyshop/static/css/main.4a430667.css",
+    "main.js": "/partyshop/static/js/main.0b88e8b4.js",
+    "static/js/453.74ba5110.chunk.js": "/partyshop/static/js/453.74ba5110.chunk.js",
     "static/media/Montserrat-Light.ttf": "/partyshop/static/media/Montserrat-Light.afe0a608093579a47b06.ttf",
     "static/media/kids.jpeg": "/partyshop/static/media/kids.5442aca00ae5451f3987.jpeg",
     "static/media/theatre.jpeg": "/partyshop/static/media/theatre.af80948254e7254349dd.jpeg",
+    "static/media/Frame234.png": "/partyshop/static/media/Frame234.916fd84af8d66976a0d5.png",
+    "static/media/Frame 236.png": "/partyshop/static/media/Frame 236.93d900e42305b71e696c.png",
+    "static/media/place1.png": "/partyshop/static/media/place1.2206e686beb7e6b10c90.png",
+    "static/media/Frame 234.png": "/partyshop/static/media/Frame 234.df7fc7d6bb705f178986.png",
+    "static/media/place4.png": "/partyshop/static/media/place4.0d776a2f8bc44b18ca68.png",
+    "static/media/Frame 235.png": "/partyshop/static/media/Frame 235.388654d9443bbf8719a6.png",
+    "static/media/Frame 237.png": "/partyshop/static/media/Frame 237.a85c94d75e5d776ac545.png",
+    "static/media/Frame 238.png": "/partyshop/static/media/Frame 238.115479de4bc74a1ce7c1.png",
+    "static/media/Frame 239.png": "/partyshop/static/media/Frame 239.13d560c4e9d99fe856d2.png",
+    "static/media/Frame238.png": "/partyshop/static/media/Frame238.b278d37d0ad4d25bafcd.png",
+    "static/media/place2.png": "/partyshop/static/media/place2.4d8eab486a538030592b.png",
     "static/media/everything.png": "/partyshop/static/media/everything.b8799cda4016a20dcf8c.png",
+    "static/media/place3.png": "/partyshop/static/media/place3.26e3dc8a80c2c7ac2312.png",
     "static/media/concert.jpeg": "/partyshop/static/media/concert.147191a4cfe8355d199e.jpeg",
     "static/media/exhibitions.jpeg": "/partyshop/static/media/exhibitions.28a4f25bfedd89de3c85.jpeg",
     "static/media/filter1.png": "/partyshop/static/media/filter1.313af88b13ba38274054.png",
@@ -30,14 +42,18 @@
     "index.html": "/partyshop/index.html",
     "static/media/Arrow.svg": "/partyshop/static/media/Arrow.4ec9a4c8bed00ad94e11172d18b1a1c2.svg",
     "static/media/line.svg": "/partyshop/static/media/line.66c6c21ce5880de439f14c4d468601b7.svg",
+    "static/media/mini-vector-up.svg": "/partyshop/static/media/mini-vector-up.ed6b35d132b6c1d1c012352ed61af7bd.svg",
+    "static/media/mini-vector-down.svg": "/partyshop/static/media/mini-vector-down.6db81930685f36d3e092d466a285b833.svg",
+    "static/media/right-arrow.svg": "/partyshop/static/media/right-arrow.cd00e92adca513616051.svg",
+    "static/media/left-arrow.svg": "/partyshop/static/media/left-arrow.8696a507d0cf11b9035d.svg",
     "static/media/arrow-up.svg": "/partyshop/static/media/arrow-up.b403d9e0631a7f99689c7df74332f825.svg",
     "static/media/arrow-down.svg": "/partyshop/static/media/arrow-down.941d002c74e3a87b6e0e0775a5952e20.svg",
-    "main.20a486d0.css.map": "/partyshop/static/css/main.20a486d0.css.map",
-    "main.5d34d3b1.js.map": "/partyshop/static/js/main.5d34d3b1.js.map",
-    "453.a4ce6b89.chunk.js.map": "/partyshop/static/js/453.a4ce6b89.chunk.js.map"
+    "main.4a430667.css.map": "/partyshop/static/css/main.4a430667.css.map",
+    "main.0b88e8b4.js.map": "/partyshop/static/js/main.0b88e8b4.js.map",
+    "453.74ba5110.chunk.js.map": "/partyshop/static/js/453.74ba5110.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20a486d0.css",
-    "static/js/main.5d34d3b1.js"
+    "static/css/main.4a430667.css",
+    "static/js/main.0b88e8b4.js"
   ]
 }
